@@ -1,0 +1,43 @@
+.Websocket{
+    margin: 0;
+    &__img{
+        width: 50px;
+        border-radius: 50%;
+        height: 50px;
+        object-fit: cover;
+    }
+    &__secondUser{
+        min-width: 100%;
+        top:60px;
+        position: fixed;
+        
+        justify-content: center;
+        align-items: end;
+        z-index: 999;
+        box-sizing: border-box;
+    }
+    &__message{ 
+        width: 30%;
+        border: solid 1px #00b96b;
+        margin-top: 20px;
+        overflow: hidden;
+        border-radius: 20px;
+        overflow-wrap: break-word;
+        max-width: 300px;
+        width: fit-content;
+        padding: 10px;
+    }
+    &__messageYou{
+        max-width: 300px;
+        width: fit-content;
+        background-color: #00b96b;
+        color: white; 
+        overflow: hidden;
+        margin-left: auto;
+        min-width: 250px;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 10px;
+        overflow-wrap: break-word;
+    }
+}
